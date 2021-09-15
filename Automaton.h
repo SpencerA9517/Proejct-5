@@ -9,6 +9,7 @@ protected:
     int newLines = 0;
     int index = 0;
     TokenType type;
+    bool priority = true;
 
 public:
     // Default constructor -- since we have a constructor that takes a parameter,
@@ -40,8 +41,8 @@ public:
 
     int NewLinesRead() const { return newLines; }
 
-    TokenType GetType() {
-        return type;
+     bool GetPrio() {
+        return priority;
     }
 };
 

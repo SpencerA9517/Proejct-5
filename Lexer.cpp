@@ -1,7 +1,19 @@
 #include "Lexer.h"
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
-
+#include "CommaAutomaton.h"
+#include "Q_MarkAutomaton.h"
+#include "PeriodAutomaton.h"
+#include "LeftParenAutomaton.h"
+#include "RightParenAutomaton.h"
+#include "MultiplyAutomaton.h"
+#include "AddAutomaton.h"
+#include "SchemesAutomaton.h"
+#include "FactsAutomaton.h"
+#include "RulesAutomaton.h"
+#include "RulesAutomaton.h"
+#include "QueriesAutomaton.h"
+#include <iostream>
 Lexer::Lexer() {
     CreateAutomata();
 }
@@ -13,6 +25,17 @@ Lexer::~Lexer() {
 void Lexer::CreateAutomata() {
     automata.push_back(new ColonAutomaton());
     automata.push_back(new ColonDashAutomaton());
+    automata.push_back(new CommaAutomaton());
+    automata.push_back(new PeriodAutomaton());
+    automata.push_back(new Q_MarkAutomaton());
+    automata.push_back(new LeftParenAutomaton());
+    automata.push_back(new RightParenAutomaton());
+    automata.push_back(new MultiplyAutomaton);
+    automata.push_back(new AddAutomaton);
+    automata.push_back(new SchemesAutomaton());
+    automata.push_back(new FactsAutomaton());
+    automata.push_back(new RulesAutomaton);
+    automata.push_back(new QueriesAutomaton);
     // TODO: Add the other needed automata here
 }
 
@@ -25,9 +48,9 @@ void Lexer::Run(std::string& input) {
 
         for(int i = 0; i < automata.size(); i++){
             inputRead = automata.at(i)->Start(input);
-            if (inputRead >= maxRead){
+            if (inputRead >= maxRead && inputRead > 0){
                 if (inputRead == maxRead){
-                    if (automata.type() != TokenType.ID){ //if tied ignore the automata with TokenType:ID
+                    if (automata.at(1)->GetPrio()){ //if tied ignore the automata with TokenType:ID
                         maxRead = inputRead;
                         maxAutomata = i;
                     }
@@ -39,14 +62,15 @@ void Lexer::Run(std::string& input) {
         }
 
         if (maxRead != 0){
-            tokens.pushback(automata.at(i).createNewToken);
-            lineNumber += automata.newLines();
+            tokens.push_back(automata.at(maxAutomata)->CreateToken(input,lineNumber));
+            lineNumber += automata.at(maxAutomata)->NewLinesRead();
+            std::cout << tokens.back()->toString() << lineNumber << ")\n";
         } else{
             //add undefined Token
             // (with first character of input)
         }
 
-        input = input.substr(maxRead,string::npos);
+        input = input.substr(maxRead);
 }
     /*
     set lineNumber to 1

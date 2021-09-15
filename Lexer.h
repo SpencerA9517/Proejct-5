@@ -18,6 +18,7 @@ public:
     int lineNumber;
     int maxRead;
     int maxAutomata;
+    int inputRead;
     Lexer();
     ~Lexer();
 
