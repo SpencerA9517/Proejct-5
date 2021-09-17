@@ -90,7 +90,7 @@ void Lexer::Run(std::string& input) {
         input = input.substr(maxRead);
     }
     std::cout <<"(EOF,\"\"," << lineNumber << ")\n";
-    std::cout << "Total Tokens = " << tokens.size() + 1 << "\n";
+    std::cout << "Total Tokens = " << tokens.size() + 1;
     /*
     set lineNumber to 1
     // While there are more characters to tokenize
