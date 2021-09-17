@@ -359,6 +359,82 @@ CMakeFiles\Project1_Starter_Code.dir\QueriesAutomaton.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\QueriesAutomaton.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\QueriesAutomaton.cpp"
 <<
 
+CMakeFiles\Project1_Starter_Code.dir\IDAutomaton.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
+CMakeFiles\Project1_Starter_Code.dir\IDAutomaton.cpp.obj: ..\IDAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\IDAutomaton.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\IDAutomaton.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\IDAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\IDAutomaton.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\IDAutomaton.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\IDAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\IDAutomaton.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\IDAutomaton.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\StringAutomaton.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
+CMakeFiles\Project1_Starter_Code.dir\StringAutomaton.cpp.obj: ..\StringAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\StringAutomaton.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\StringAutomaton.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\StringAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\StringAutomaton.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\StringAutomaton.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\StringAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\StringAutomaton.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\StringAutomaton.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
+CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.obj: ..\WhiteSpaceAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/WhiteSpaceAutomaton.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\WhiteSpaceAutomaton.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/WhiteSpaceAutomaton.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\WhiteSpaceAutomaton.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/WhiteSpaceAutomaton.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\WhiteSpaceAutomaton.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\CommentAutomaton.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
+CMakeFiles\Project1_Starter_Code.dir\CommentAutomaton.cpp.obj: ..\CommentAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\CommentAutomaton.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\CommentAutomaton.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\CommentAutomaton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\CommentAutomaton.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\CommentAutomaton.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\CommentAutomaton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\CommentAutomaton.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\CommentAutomaton.cpp"
+<<
+
 # Object files for target Project1_Starter_Code
 Project1_Starter_Code_OBJECTS = \
 "CMakeFiles\Project1_Starter_Code.dir\ColonAutomaton.cpp.obj" \
@@ -376,7 +452,11 @@ Project1_Starter_Code_OBJECTS = \
 "CMakeFiles\Project1_Starter_Code.dir\SchemesAutomaton.cpp.obj" \
 "CMakeFiles\Project1_Starter_Code.dir\FactsAutomaton.cpp.obj" \
 "CMakeFiles\Project1_Starter_Code.dir\RulesAutomaton.cpp.obj" \
-"CMakeFiles\Project1_Starter_Code.dir\QueriesAutomaton.cpp.obj"
+"CMakeFiles\Project1_Starter_Code.dir\QueriesAutomaton.cpp.obj" \
+"CMakeFiles\Project1_Starter_Code.dir\IDAutomaton.cpp.obj" \
+"CMakeFiles\Project1_Starter_Code.dir\StringAutomaton.cpp.obj" \
+"CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.obj" \
+"CMakeFiles\Project1_Starter_Code.dir\CommentAutomaton.cpp.obj"
 
 # External object files for target Project1_Starter_Code
 Project1_Starter_Code_EXTERNAL_OBJECTS =
@@ -397,9 +477,13 @@ Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\SchemesAutomaton
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\FactsAutomaton.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\RulesAutomaton.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\QueriesAutomaton.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\IDAutomaton.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\StringAutomaton.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\CommentAutomaton.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\build.make
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable Project1_Starter_Code.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable Project1_Starter_Code.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Project1_Starter_Code.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Project1_Starter_Code.dir\objects1.rsp @<<
  /out:Project1_Starter_Code.exe /implib:Project1_Starter_Code.lib /pdb:"C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\Project1_Starter_Code.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

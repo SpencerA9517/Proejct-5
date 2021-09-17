@@ -12,6 +12,7 @@ protected:
     bool priority = true;
 
 public:
+    std::string text;
     // Default constructor -- since we have a constructor that takes a parameter,
     //   the compiler will autogenerate a default constructor if not explicit.
     Automaton() : Automaton(TokenType::UNDEFINED) {}
@@ -25,6 +26,7 @@ public:
         newLines = 0;
         inputRead = 0;
         index = 0;
+        text = "";
         S0(input);
         return inputRead;
     }

@@ -65,6 +65,7 @@ void QueriesAutomaton::S5(const std::string& input) {
 }
 void QueriesAutomaton::S6(const std::string& input) {
     if (input[index] == 's') {
+        text = "Queries";
         inputRead++;
     }
     else {

@@ -13,6 +13,10 @@
 #include "RulesAutomaton.h"
 #include "RulesAutomaton.h"
 #include "QueriesAutomaton.h"
+#include "IDAutomaton.h"
+#include "StringAutomaton.h"
+#include "WhiteSpaceAutomaton.h"
+#include "CommentAutomaton.h"
 #include <iostream>
 Lexer::Lexer() {
     CreateAutomata();
@@ -36,6 +40,10 @@ void Lexer::CreateAutomata() {
     automata.push_back(new FactsAutomaton());
     automata.push_back(new RulesAutomaton);
     automata.push_back(new QueriesAutomaton);
+    automata.push_back(new IDAutomaton);
+    automata.push_back(new StringAutomaton);
+    automata.push_back(new WhiteSpaceAutomaton);
+    automata.push_back(new CommentAutomaton);
     // TODO: Add the other needed automata here
 }
 
@@ -50,7 +58,7 @@ void Lexer::Run(std::string& input) {
             inputRead = automata.at(i)->Start(input);
             if (inputRead >= maxRead && inputRead > 0){
                 if (inputRead == maxRead){
-                    if (automata.at(1)->GetPrio()){ //if tied ignore the automata with TokenType:ID
+                    if (automata.at(i)->GetPrio()){ //if tied ignore the automata with TokenType:ID
                         maxRead = inputRead;
                         maxAutomata = i;
                     }
@@ -61,17 +69,27 @@ void Lexer::Run(std::string& input) {
             }
         }
 
-        if (maxRead != 0){
-            tokens.push_back(automata.at(maxAutomata)->CreateToken(input,lineNumber));
-            lineNumber += automata.at(maxAutomata)->NewLinesRead();
-            std::cout << tokens.back()->toString() << lineNumber << ")\n";
-        } else{
-            //add undefined Token
+        if (maxRead != 0) {
+            if (!(automata.at(maxAutomata)->text.empty())) {
+                tokens.push_back(automata.at(maxAutomata)->CreateToken(input, lineNumber));
+                lineNumber += automata.at(maxAutomata)->NewLinesRead();
+                std::string temp = automata.at(maxAutomata)->text;
+                std::cout << tokens.back()->toString() << automata.at(maxAutomata)->text << "\"," << lineNumber << ")\n";
+            }else{
+                if (input.front() == '\n'){
+                    lineNumber++;
+                }
+            }
+        } else {
+            tokens.push_back(new Token(TokenType::UNDEFINED, input, lineNumber));
+            std::cout << "(UNDEFINED,\"" << input.front() << "\"," << lineNumber << ")\n";
+            maxRead = 1;
             // (with first character of input)
         }
 
         input = input.substr(maxRead);
-}
+    }
+    std::cout <<"(EOF,\"\"," << lineNumber << ")\n";
     /*
     set lineNumber to 1
     // While there are more characters to tokenize

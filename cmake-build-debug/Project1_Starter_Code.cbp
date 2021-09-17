@@ -113,10 +113,22 @@
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommaAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommentAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommentAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactsAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactsAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/LeftParenAutomaton.cpp">
@@ -173,10 +185,22 @@
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemesAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringAutomaton.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/WhiteSpaceAutomaton.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/WhiteSpaceAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/main.cpp">

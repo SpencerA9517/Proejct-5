@@ -65,6 +65,7 @@ void SchemesAutomaton::S5(const std::string& input) {
 }
 void SchemesAutomaton::S6(const std::string& input) {
     if (input[index] == 's') {
+        text = "Schemes";
         inputRead++;
     }
     else {

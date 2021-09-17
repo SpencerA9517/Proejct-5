@@ -46,6 +46,7 @@ void RulesAutomaton::S3(const std::string& input) {
 
 void RulesAutomaton::S4(const std::string& input) {
     if (input[index] == 's') {
+        text = "Rules";
         inputRead++;
     }
     else {

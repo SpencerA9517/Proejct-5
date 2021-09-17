@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/AddAutomaton.cpp
-AddAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/AddAutomaton.h
-
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/AddAutomaton.h
 Automaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
@@ -18,41 +14,29 @@ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automa
 Token.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/ColonAutomaton.cpp
-ColonAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/ColonAutomaton.h
-
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/ColonAutomaton.h
 Automaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
-
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/ColonDashAutomaton.cpp
-ColonDashAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/ColonDashAutomaton.h
 
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/ColonDashAutomaton.h
 Automaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommaAutomaton.cpp
-CommaAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommaAutomaton.h
-
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommaAutomaton.h
 Automaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactsAutomaton.cpp
-FactsAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactsAutomaton.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommentAutomaton.h
+Automaton.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
 
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactsAutomaton.h
 Automaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/LeftParenAutomaton.cpp
-LeftParenAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/LeftParenAutomaton.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDAutomaton.h
+Automaton.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
 
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/LeftParenAutomaton.h
 Automaton.h
@@ -89,6 +73,14 @@ RulesAutomaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RulesAutomaton.h
 QueriesAutomaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueriesAutomaton.h
+IDAutomaton.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDAutomaton.h
+StringAutomaton.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringAutomaton.h
+WhiteSpaceAutomaton.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/WhiteSpaceAutomaton.h
+CommentAutomaton.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommentAutomaton.h
 iostream
 -
 
@@ -100,73 +92,43 @@ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automa
 Token.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/MultiplyAutomaton.cpp
-MultiplyAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/MultiplyAutomaton.h
-
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/MultiplyAutomaton.h
 Automaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
-
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/PeriodAutomaton.cpp
-PeriodAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/PeriodAutomaton.h
 
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/PeriodAutomaton.h
 Automaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Q_MarkAutomaton.cpp
-Q_MARKAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Q_MarkAutomaton.h
-
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Q_MarkAutomaton.h
 Automaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
-
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueriesAutomaton.cpp
-QueriesAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueriesAutomaton.h
 
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueriesAutomaton.h
 Automaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RightParenAutomaton.cpp
-RightParenAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RightParenAutomaton.h
-
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RightParenAutomaton.h
 Automaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
-
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RulesAutomaton.cpp
-RulesAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RulesAutomaton.h
 
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RulesAutomaton.h
 Automaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemesAutomaton.cpp
-SchemesAutomaton.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemesAutomaton.h
-
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemesAutomaton.h
 Automaton.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.cpp
-Token.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringAutomaton.h
+Automaton.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
 
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 string
 -
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/main.cpp
-Lexer.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Lexer.h
-iostream
--
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/WhiteSpaceAutomaton.h
+Automaton.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
 

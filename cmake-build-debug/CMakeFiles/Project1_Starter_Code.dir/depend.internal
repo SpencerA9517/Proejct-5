@@ -21,10 +21,20 @@ CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommaAutomaton.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommaAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommentAutomaton.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommentAutomaton.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactsAutomaton.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactsAutomaton.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDAutomaton.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
@@ -37,7 +47,9 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/ColonAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/ColonDashAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommaAutomaton.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommentAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactsAutomaton.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/LeftParenAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Lexer.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Lexer.h
@@ -48,7 +60,9 @@ CMakeFiles/Project1_Starter_Code.dir/Lexer.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RightParenAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RulesAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemesAutomaton.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/WhiteSpaceAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/MultiplyAutomaton.cpp
@@ -84,9 +98,19 @@ CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemesAutomaton.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemesAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringAutomaton.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringAutomaton.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/Token.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/WhiteSpaceAutomaton.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/WhiteSpaceAutomaton.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/WhiteSpaceAutomaton.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Lexer.h

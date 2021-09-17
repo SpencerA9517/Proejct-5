@@ -9,4 +9,5 @@ Token::Token(TokenType type, std::string description, int line) {
 std::string Token::toString(){
     int i = static_cast<int>(type);
     return strConverter[static_cast<int>(type)];
+
 }
