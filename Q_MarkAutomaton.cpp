@@ -1,4 +1,4 @@
-#include "Q_MARKAutomaton.h"
+#include "Q_MarkAutomaton.h"
 
 void Q_MarkAutomaton::S0(const std::string& input) {
     if (input[index] == '?') {

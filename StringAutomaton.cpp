@@ -4,7 +4,7 @@
 
 #include "StringAutomaton.h"
 void StringAutomaton::S0(const std::string& input) {
-    text = "";
+    text = "'";
     type = TokenType::STRING;
     if (input[index] == '\'') {
         inputRead++;
@@ -16,11 +16,14 @@ void StringAutomaton::S0(const std::string& input) {
     }
 }
 void StringAutomaton::S1(const std::string& input) {
-    if(index >= input.size() ){
+    if(index >= static_cast<int>(input.size() )){
         type = TokenType::UNDEFINED;
     } else {
         if (input[index] != '\'') {
             text.push_back(input[index]);
+            if(input[index] == '\n'){
+                newLines++;
+            }
             inputRead++;
             index++;
             S1(input);
@@ -40,5 +43,6 @@ void StringAutomaton::S2(const std::string& input) {
         S1(input);
     }
     else {
+	    text.push_back('\'');
     }
 }

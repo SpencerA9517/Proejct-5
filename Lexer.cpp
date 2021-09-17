@@ -54,7 +54,7 @@ void Lexer::Run(std::string& input) {
         maxRead = 0;
         maxAutomata = 0;
 
-        for(int i = 0; i < automata.size(); i++){
+        for(int i = 0; i < static_cast<int>(automata.size()); i++){
             inputRead = automata.at(i)->Start(input);
             if (inputRead >= maxRead && inputRead > 0){
                 if (inputRead == maxRead){
@@ -72,9 +72,9 @@ void Lexer::Run(std::string& input) {
         if (maxRead != 0) {
             if (!(automata.at(maxAutomata)->text.empty())) {
                 tokens.push_back(automata.at(maxAutomata)->CreateToken(input, lineNumber));
-                lineNumber += automata.at(maxAutomata)->NewLinesRead();
                 std::string temp = automata.at(maxAutomata)->text;
                 std::cout << tokens.back()->toString() << automata.at(maxAutomata)->text << "\"," << lineNumber << ")\n";
+		lineNumber += automata.at(maxAutomata)->NewLinesRead();
             }else{
                 if (input.front() == '\n'){
                     lineNumber++;
@@ -90,6 +90,7 @@ void Lexer::Run(std::string& input) {
         input = input.substr(maxRead);
     }
     std::cout <<"(EOF,\"\"," << lineNumber << ")\n";
+    std::cout << "Total Tokens = " << tokens.size() + 1 << "\n";
     /*
     set lineNumber to 1
     // While there are more characters to tokenize

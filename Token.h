@@ -30,7 +30,7 @@ private:
             "(COLON,\"",
             "(COLON_DASH,\"",
             "(ID,\"",
-            "((COMMA,\"",
+            "(COMMA,\"",
             "(PERIOD,\"",
             "(Q_MARK,\"",
             "(LEFT_PAREN,\"",
