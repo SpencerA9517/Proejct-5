@@ -1,13 +1,5 @@
 a
-b
-c
-d
-e
-#|
+RULES
 
-''
 
-|#
 
-'le String'
-a

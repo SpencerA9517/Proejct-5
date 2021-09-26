@@ -26,6 +26,11 @@ CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommentAutomaton.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommentAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/DataLog.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/DataLog.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/DataLog.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parsepart.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactsAutomaton.cpp
@@ -35,6 +40,10 @@ CMakeFiles/Project1_Starter_Code.dir/IDAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDAutomaton.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDAutomaton.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/IDList.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDList.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDList.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/LeftParenAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
@@ -68,6 +77,19 @@ CMakeFiles/Project1_Starter_Code.dir/MultiplyAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/MultiplyAutomaton.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/MultiplyAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parameter.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parameter.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/Parsepart.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parsepart.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parsepart.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/Parser.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parsepart.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parser.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parser.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/PeriodAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/PeriodAutomaton.cpp
@@ -93,6 +115,17 @@ CMakeFiles/Project1_Starter_Code.dir/RulesAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RulesAutomaton.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RulesAutomaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/Scheme.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Scheme.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Scheme.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/SchemeList.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Scheme.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemeList.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemeList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/SchemesAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemesAutomaton.cpp
@@ -102,6 +135,10 @@ CMakeFiles/Project1_Starter_Code.dir/StringAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringAutomaton.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringAutomaton.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+CMakeFiles/Project1_Starter_Code.dir/StringList.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringList.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringList.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 CMakeFiles/Project1_Starter_Code.dir/Token.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.cpp
@@ -116,3 +153,11 @@ CMakeFiles/Project1_Starter_Code.dir/main.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Lexer.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/main.cpp
+CMakeFiles/Project1_Starter_Code.dir/parameterList.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parameter.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/parameterList.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/parameterList.h
+CMakeFiles/Project1_Starter_Code.dir/predicateList.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicateList.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicateList.h

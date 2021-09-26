@@ -71,9 +71,11 @@ void Lexer::Run(std::string& input) {
 
         if (maxRead != 0) {
             if (!(automata.at(maxAutomata)->text.empty())) {
-                tokens.push_back(automata.at(maxAutomata)->CreateToken(input, lineNumber));
-                std::string temp = automata.at(maxAutomata)->text;
-                std::cout << tokens.back()->toString() << automata.at(maxAutomata)->text << "\"," << lineNumber << ")\n";
+                if(automata.at(maxAutomata)->type != TokenType::COMMENT) {
+                    tokens.push_back(automata.at(maxAutomata)->CreateToken(input, lineNumber));
+                }
+                //std::string temp = automata.at(maxAutomata)->text;
+                //std::cout << tokens.back()->toString() << automata.at(maxAutomata)->text << "\"," << lineNumber << ")\n";
 		lineNumber += automata.at(maxAutomata)->NewLinesRead();
             }else{
                 if (input.front() == '\n'){
