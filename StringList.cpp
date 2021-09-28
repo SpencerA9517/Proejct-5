@@ -14,7 +14,8 @@ StringList::StringList(bool head, std::vector<Token*> tokens, int* i) {
             *i = *i + 1;
             child = new StringList(head=false,tokens,i);
         }else{
-            throw ("There must be at least one STRING in this list");
+            std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+            throw (e);
         }
     }else if(tokens[*i]->type != TokenType::RIGHT_PAREN){
         if (tokens[*i]->type == TokenType::COMMA){
@@ -24,10 +25,12 @@ StringList::StringList(bool head, std::vector<Token*> tokens, int* i) {
                 *i = *i + 1;
                 child = new StringList(head=false,tokens,i);
             } else{
-                throw ("expected STRING");
+                std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+                throw (e);
             }
         }else {
-            throw ("expected , or )");
+            std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+            throw (e);
         }
     }
 }

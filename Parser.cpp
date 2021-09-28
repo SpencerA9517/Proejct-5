@@ -8,7 +8,6 @@
 Parser::Parser(){
 }
 
-
 void Parser::Run(std::vector <Token*> tokens) {
     try{
         tokensRead = 0;

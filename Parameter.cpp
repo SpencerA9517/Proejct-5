@@ -9,6 +9,7 @@ Parameter::Parameter(std::vector<Token *> tokens, int *i) {
         text = tokens[*i]->toString();
         *i = *i + 1;
     }else{
-        throw( "expected string or ID");
+        std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+        throw (e);
     }
 }

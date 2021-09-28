@@ -11,7 +11,8 @@ Query::Query(std::vector<Token*> tokens, int *i) {
     if (tokens[*i]->type == TokenType::ID){
         q = Predicate(tokens,i);
     } else{
-        throw("expected predicate");
+        std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+        throw (e);
     }
     PushToken(TokenType::Q_MARK,tokens,i);
 }
@@ -20,10 +21,12 @@ void Query::PushToken(TokenType type, std::vector<Token*> tokens, int *i) {
     if (tokens[*i]->type == type){
         *i = *i + 1;
     }else{
-        throw ("expected token");
+        std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+        throw (e);
     }
 }
 void Query::ToString() {
+    std:: cout << "  ";
     q.ToString();
     std::cout << "?\n";
 }

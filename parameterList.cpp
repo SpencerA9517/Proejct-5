@@ -19,7 +19,8 @@ ParameterList::ParameterList(bool head, std::vector<Token*> tokens, int* i) {
             child = new ParameterList(head=false,tokens,i);
         }
         else{
-            throw ("expected COMMA");
+            std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+            throw (e);
         }
     }
 }

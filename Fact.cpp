@@ -12,7 +12,8 @@ Fact::Fact(std::vector<Token*> tokens, int *i) {
         name = tokens[*i]->toString();
         *i = *i + 1;
     } else{
-        throw("expected name");
+        std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+        throw (e);
     }
     PushToken(TokenType::LEFT_PAREN,tokens,i);
     strings = StringList(true,tokens,i);
@@ -24,11 +25,12 @@ void Fact::PushToken(TokenType type, std::vector<Token*> tokens, int *i) {
     if (tokens[*i]->type == type){
         *i = *i + 1;
     }else{
-        throw ("expected token");
+        std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+        throw (e);
     }
 }
 void Fact::ToString() {
-    std::cout << name + "(";
+    std::cout <<  "  " << name << "(";
     strings.ToString(true);
-    std::cout<< ")\n";
+    std::cout<< ").\n";
 }

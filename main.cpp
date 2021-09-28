@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include "Parser.h"
+#include <exception>
 
     int main(int argc, char** argv) {
 

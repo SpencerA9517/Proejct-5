@@ -7,6 +7,7 @@
 #include "QueryList.h"
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 class DataLog
 {

@@ -14,7 +14,8 @@ IDList::IDList(bool head, std::vector<Token*> tokens, int* i) {
                 *i = *i + 1;
                 child = new IDList(head=false,tokens,i);
         }else{
-            throw ("There must be at least one ID in this list");
+            std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+            throw (e);
         }
     }else if(tokens[*i]->type != TokenType::RIGHT_PAREN){
         if (tokens[*i]->type == TokenType::COMMA){
@@ -24,10 +25,12 @@ IDList::IDList(bool head, std::vector<Token*> tokens, int* i) {
                 *i = *i + 1;
                 child = new IDList(head=false,tokens,i);
             } else{
-                throw ("expected ID");
+                std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+                throw (e);
             }
         }else {
-            throw ("expected , or )");
+            std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+            throw (e);
         }
     }
 }

@@ -24,7 +24,8 @@ void DataLog::PushToken(TokenType type, std::vector<Token*> tokens, int* i) {
     if (tokens[*i]->type == type){
         *i = *i + 1;
     }else{
-        throw ("expected token");
+        std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+        throw (e);
     }
 }
 void DataLog::ToString() {
@@ -101,8 +102,9 @@ void DataLog::PrintDomain() {
         }
         fIndex = fIndex->child;
     }
-    std::cout << "Domain(" + std::to_string(count) + ")\n";
+    std::sort(domain.begin(),domain.end());
+    std::cout << "Domain(" << std::to_string(count) << "):\n";
     for(int j = 0; j<count; j++){
-        std::cout << domain[j] + "\n";
+        std::cout << "  " << domain[j] << "\n";
     }
 }
