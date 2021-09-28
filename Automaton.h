@@ -39,7 +39,7 @@ public:
         inputRead = 0;
     }
 
-    virtual Token* CreateToken(std::string input, int lineNumber) { return new Token(type, input, lineNumber); }
+    virtual Token* CreateToken(std::string input, int lineNumber,std::string text) { return new Token(type, input, lineNumber,text); }
 
     int NewLinesRead() const { return newLines; }
 

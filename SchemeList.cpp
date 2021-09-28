@@ -3,18 +3,20 @@
 //
 
 #include "SchemeList.h"
+SchemeList::SchemeList() {}
 SchemeList::SchemeList(bool head, std::vector<Token*> tokens, int* i) {
     child = nullptr;
     if(head == true){
             scheme = Scheme(tokens,i);
             child = new SchemeList(head=false,tokens,i);
-    }else if(tokens[*i]->type != TokenType::RIGHT_PAREN){
+    }else if(tokens[*i]->type != TokenType::FACTS){
         scheme = Scheme(tokens,i);
         child = new SchemeList(head=false,tokens,i);
     }
 }
-std::string SchemeList::ToString() {
+void SchemeList::ToString() {
     if(child != nullptr) {
-            return (scheme.ToString() + child->ToString(false));
+            scheme.ToString();
+            child->ToString();
     }
 }

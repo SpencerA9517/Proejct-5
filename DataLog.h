@@ -1,21 +1,32 @@
-#ifndef DATALOGPART_H
-#define DATALOGPART_H
+#ifndef PROJECT1_STARTER_CODE_DATALOG_H
+#define PROJECT1_STARTER_CODE_DATALOG_H
 #include "Token.h"
-#include "Parsepart.h"
+#include "SchemeList.h"
+#include "FactList.h"
+#include "RuleList.h"
+#include "QueryList.h"
+#include <iostream>
+#include <string>
 
-class DataLog : public ParsePart
+class DataLog
 {
 private:
     std::vector<Token> tokens;
-    int* i;
 public:
-    //std::vector <Scheme> schemes;
-    //std::vector <Fact> facts;
-    //std::vector <Rule> rules;
-    //std::vector <Queries> queries;
+    SchemeList schemes;
+    FactList facts;
+    RuleList rules;
+    QueryList queries;
 
-    DataLog(std::vector <Token>, std::vector <ParsePart>);
-    void PushTerminal(TokenType type, int* i);
+    DataLog();
+    DataLog(std::vector <Token*> tokens,int* i);
+    int CountSchemes();
+    int CountFacts();
+    int CountRules();
+    int CountQueries();
+    void PrintDomain();
+    void PushToken(TokenType type,std::vector<Token*> tokens, int* i);
+    void ToString();
 };
 
-#endif // DATALOGPART_H
+#endif  //DATALOG_H

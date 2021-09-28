@@ -15,6 +15,7 @@ private:
     // TODO: add any other private methods here (if needed)
 
 public:
+    std::string s;
     int lineNumber;
     int maxRead;
     int maxAutomata;
@@ -22,7 +23,7 @@ public:
     Lexer();
     ~Lexer();
 
-    void Run(std::string& input);
+    std::vector<Token*> Run(std::string& input);
     
     // TODO: add other public methods here
 

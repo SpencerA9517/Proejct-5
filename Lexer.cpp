@@ -47,7 +47,7 @@ void Lexer::CreateAutomata() {
     // TODO: Add the other needed automata here
 }
 
-void Lexer::Run(std::string& input) {
+std::vector<Token*> Lexer::Run(std::string& input) {
     // TODO: convert this pseudo-code with the algorithm into actual C++ code
     lineNumber = 1;
     while(input.size() > 0){
@@ -72,7 +72,7 @@ void Lexer::Run(std::string& input) {
         if (maxRead != 0) {
             if (!(automata.at(maxAutomata)->text.empty())) {
                 if(automata.at(maxAutomata)->type != TokenType::COMMENT) {
-                    tokens.push_back(automata.at(maxAutomata)->CreateToken(input, lineNumber));
+                    tokens.push_back(automata.at(maxAutomata)->CreateToken(input, lineNumber,automata.at(maxAutomata)->text));
                 }
                 //std::string temp = automata.at(maxAutomata)->text;
                 //std::cout << tokens.back()->toString() << automata.at(maxAutomata)->text << "\"," << lineNumber << ")\n";
@@ -83,7 +83,9 @@ void Lexer::Run(std::string& input) {
                 }
             }
         } else {
-            tokens.push_back(new Token(TokenType::UNDEFINED, input, lineNumber));
+            s = "";
+            s.push_back(input.front());
+            tokens.push_back(new Token(TokenType::UNDEFINED,input,lineNumber,s));
             std::cout << "(UNDEFINED,\"" << input.front() << "\"," << lineNumber << ")\n";
             maxRead = 1;
             // (with first character of input)
@@ -91,8 +93,10 @@ void Lexer::Run(std::string& input) {
 
         input = input.substr(maxRead);
     }
-    std::cout <<"(EOF,\"\"," << lineNumber << ")\n";
-    std::cout << "Total Tokens = " << tokens.size() + 1;
+    tokens.push_back(new Token(TokenType::END,input,lineNumber,""));
+    return tokens;
+    //std::cout <<"(EOF,\"\"," << lineNumber << ")\n";
+   // std::cout << "Total Tokens = " << tokens.size() + 1;
     /*
     set lineNumber to 1
     // While there are more characters to tokenize

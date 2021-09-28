@@ -262,6 +262,54 @@ DataLog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.s
 .PHONY : DataLog.cpp.s
 
+Fact.obj: Fact.cpp.obj
+.PHONY : Fact.obj
+
+# target to build an object file
+Fact.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj
+.PHONY : Fact.cpp.obj
+
+Fact.i: Fact.cpp.i
+.PHONY : Fact.i
+
+# target to preprocess a source file
+Fact.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.i
+.PHONY : Fact.cpp.i
+
+Fact.s: Fact.cpp.s
+.PHONY : Fact.s
+
+# target to generate assembly for a file
+Fact.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.s
+.PHONY : Fact.cpp.s
+
+FactList.obj: FactList.cpp.obj
+.PHONY : FactList.obj
+
+# target to build an object file
+FactList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.obj
+.PHONY : FactList.cpp.obj
+
+FactList.i: FactList.cpp.i
+.PHONY : FactList.i
+
+# target to preprocess a source file
+FactList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.i
+.PHONY : FactList.cpp.i
+
+FactList.s: FactList.cpp.s
+.PHONY : FactList.s
+
+# target to generate assembly for a file
+FactList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.s
+.PHONY : FactList.cpp.s
+
 FactsAutomaton.obj: FactsAutomaton.cpp.obj
 .PHONY : FactsAutomaton.obj
 
@@ -285,6 +333,30 @@ FactsAutomaton.s: FactsAutomaton.cpp.s
 FactsAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\FactsAutomaton.cpp.s
 .PHONY : FactsAutomaton.cpp.s
+
+HeadPredicate.obj: HeadPredicate.cpp.obj
+.PHONY : HeadPredicate.obj
+
+# target to build an object file
+HeadPredicate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.obj
+.PHONY : HeadPredicate.cpp.obj
+
+HeadPredicate.i: HeadPredicate.cpp.i
+.PHONY : HeadPredicate.i
+
+# target to preprocess a source file
+HeadPredicate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.i
+.PHONY : HeadPredicate.cpp.i
+
+HeadPredicate.s: HeadPredicate.cpp.s
+.PHONY : HeadPredicate.s
+
+# target to generate assembly for a file
+HeadPredicate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.s
+.PHONY : HeadPredicate.cpp.s
 
 IDAutomaton.obj: IDAutomaton.cpp.obj
 .PHONY : IDAutomaton.obj
@@ -430,30 +502,6 @@ Parameter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.s
 .PHONY : Parameter.cpp.s
 
-Parsepart.obj: Parsepart.cpp.obj
-.PHONY : Parsepart.obj
-
-# target to build an object file
-Parsepart.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.obj
-.PHONY : Parsepart.cpp.obj
-
-Parsepart.i: Parsepart.cpp.i
-.PHONY : Parsepart.i
-
-# target to preprocess a source file
-Parsepart.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.i
-.PHONY : Parsepart.cpp.i
-
-Parsepart.s: Parsepart.cpp.s
-.PHONY : Parsepart.s
-
-# target to generate assembly for a file
-Parsepart.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.s
-.PHONY : Parsepart.cpp.s
-
 Parser.obj: Parser.cpp.obj
 .PHONY : Parser.obj
 
@@ -550,6 +598,54 @@ QueriesAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\QueriesAutomaton.cpp.s
 .PHONY : QueriesAutomaton.cpp.s
 
+Query.obj: Query.cpp.obj
+.PHONY : Query.obj
+
+# target to build an object file
+Query.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Query.cpp.obj
+.PHONY : Query.cpp.obj
+
+Query.i: Query.cpp.i
+.PHONY : Query.i
+
+# target to preprocess a source file
+Query.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Query.cpp.i
+.PHONY : Query.cpp.i
+
+Query.s: Query.cpp.s
+.PHONY : Query.s
+
+# target to generate assembly for a file
+Query.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Query.cpp.s
+.PHONY : Query.cpp.s
+
+QueryList.obj: QueryList.cpp.obj
+.PHONY : QueryList.obj
+
+# target to build an object file
+QueryList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj
+.PHONY : QueryList.cpp.obj
+
+QueryList.i: QueryList.cpp.i
+.PHONY : QueryList.i
+
+# target to preprocess a source file
+QueryList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.i
+.PHONY : QueryList.cpp.i
+
+QueryList.s: QueryList.cpp.s
+.PHONY : QueryList.s
+
+# target to generate assembly for a file
+QueryList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.s
+.PHONY : QueryList.cpp.s
+
 RightParenAutomaton.obj: RightParenAutomaton.cpp.obj
 .PHONY : RightParenAutomaton.obj
 
@@ -573,6 +669,54 @@ RightParenAutomaton.s: RightParenAutomaton.cpp.s
 RightParenAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\RightParenAutomaton.cpp.s
 .PHONY : RightParenAutomaton.cpp.s
+
+Rule.obj: Rule.cpp.obj
+.PHONY : Rule.obj
+
+# target to build an object file
+Rule.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj
+.PHONY : Rule.cpp.obj
+
+Rule.i: Rule.cpp.i
+.PHONY : Rule.i
+
+# target to preprocess a source file
+Rule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.i
+.PHONY : Rule.cpp.i
+
+Rule.s: Rule.cpp.s
+.PHONY : Rule.s
+
+# target to generate assembly for a file
+Rule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.s
+.PHONY : Rule.cpp.s
+
+RuleList.obj: RuleList.cpp.obj
+.PHONY : RuleList.obj
+
+# target to build an object file
+RuleList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj
+.PHONY : RuleList.cpp.obj
+
+RuleList.i: RuleList.cpp.i
+.PHONY : RuleList.i
+
+# target to preprocess a source file
+RuleList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.i
+.PHONY : RuleList.cpp.i
+
+RuleList.s: RuleList.cpp.s
+.PHONY : RuleList.s
+
+# target to generate assembly for a file
+RuleList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.s
+.PHONY : RuleList.cpp.s
 
 RulesAutomaton.obj: RulesAutomaton.cpp.obj
 .PHONY : RulesAutomaton.obj
@@ -814,6 +958,30 @@ parameterList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.s
 .PHONY : parameterList.cpp.s
 
+predicate.obj: predicate.cpp.obj
+.PHONY : predicate.obj
+
+# target to build an object file
+predicate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.obj
+.PHONY : predicate.cpp.obj
+
+predicate.i: predicate.cpp.i
+.PHONY : predicate.i
+
+# target to preprocess a source file
+predicate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.i
+.PHONY : predicate.cpp.i
+
+predicate.s: predicate.cpp.s
+.PHONY : predicate.s
+
+# target to generate assembly for a file
+predicate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.s
+.PHONY : predicate.cpp.s
+
 predicateList.obj: predicateList.cpp.obj
 .PHONY : predicateList.obj
 
@@ -865,9 +1033,18 @@ help:
 	@echo ... DataLog.obj
 	@echo ... DataLog.i
 	@echo ... DataLog.s
+	@echo ... Fact.obj
+	@echo ... Fact.i
+	@echo ... Fact.s
+	@echo ... FactList.obj
+	@echo ... FactList.i
+	@echo ... FactList.s
 	@echo ... FactsAutomaton.obj
 	@echo ... FactsAutomaton.i
 	@echo ... FactsAutomaton.s
+	@echo ... HeadPredicate.obj
+	@echo ... HeadPredicate.i
+	@echo ... HeadPredicate.s
 	@echo ... IDAutomaton.obj
 	@echo ... IDAutomaton.i
 	@echo ... IDAutomaton.s
@@ -886,9 +1063,6 @@ help:
 	@echo ... Parameter.obj
 	@echo ... Parameter.i
 	@echo ... Parameter.s
-	@echo ... Parsepart.obj
-	@echo ... Parsepart.i
-	@echo ... Parsepart.s
 	@echo ... Parser.obj
 	@echo ... Parser.i
 	@echo ... Parser.s
@@ -901,9 +1075,21 @@ help:
 	@echo ... QueriesAutomaton.obj
 	@echo ... QueriesAutomaton.i
 	@echo ... QueriesAutomaton.s
+	@echo ... Query.obj
+	@echo ... Query.i
+	@echo ... Query.s
+	@echo ... QueryList.obj
+	@echo ... QueryList.i
+	@echo ... QueryList.s
 	@echo ... RightParenAutomaton.obj
 	@echo ... RightParenAutomaton.i
 	@echo ... RightParenAutomaton.s
+	@echo ... Rule.obj
+	@echo ... Rule.i
+	@echo ... Rule.s
+	@echo ... RuleList.obj
+	@echo ... RuleList.i
+	@echo ... RuleList.s
 	@echo ... RulesAutomaton.obj
 	@echo ... RulesAutomaton.i
 	@echo ... RulesAutomaton.s
@@ -934,6 +1120,9 @@ help:
 	@echo ... parameterList.obj
 	@echo ... parameterList.i
 	@echo ... parameterList.s
+	@echo ... predicate.obj
+	@echo ... predicate.i
+	@echo ... predicate.s
 	@echo ... predicateList.obj
 	@echo ... predicateList.i
 	@echo ... predicateList.s

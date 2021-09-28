@@ -454,28 +454,9 @@ CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\Parser.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Parser.cpp"
 <<
 
-CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
-CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.obj: ..\Parsepart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Parsepart.cpp.obj"
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Parsepart.cpp"
-<<
-
-CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/Parsepart.cpp.i"
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Parsepart.cpp"
-<<
-
-CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Parsepart.cpp.s"
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Parsepart.cpp"
-<<
-
 CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
 CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\DataLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/DataLog.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/DataLog.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\DataLog.cpp"
 <<
@@ -494,7 +475,7 @@ CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.s: cmake_force
 
 CMakeFiles\Project1_Starter_Code.dir\Scheme.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
 CMakeFiles\Project1_Starter_Code.dir\Scheme.cpp.obj: ..\Scheme.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Scheme.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Scheme.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\Scheme.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Scheme.cpp"
 <<
@@ -513,7 +494,7 @@ CMakeFiles\Project1_Starter_Code.dir\Scheme.cpp.s: cmake_force
 
 CMakeFiles\Project1_Starter_Code.dir\IDList.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
 CMakeFiles\Project1_Starter_Code.dir\IDList.cpp.obj: ..\IDList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/IDList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/IDList.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\IDList.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\IDList.cpp"
 <<
@@ -532,7 +513,7 @@ CMakeFiles\Project1_Starter_Code.dir\IDList.cpp.s: cmake_force
 
 CMakeFiles\Project1_Starter_Code.dir\SchemeList.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
 CMakeFiles\Project1_Starter_Code.dir\SchemeList.cpp.obj: ..\SchemeList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/SchemeList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/SchemeList.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\SchemeList.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\SchemeList.cpp"
 <<
@@ -551,7 +532,7 @@ CMakeFiles\Project1_Starter_Code.dir\SchemeList.cpp.s: cmake_force
 
 CMakeFiles\Project1_Starter_Code.dir\StringList.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
 CMakeFiles\Project1_Starter_Code.dir\StringList.cpp.obj: ..\StringList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/StringList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/StringList.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\StringList.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\StringList.cpp"
 <<
@@ -570,7 +551,7 @@ CMakeFiles\Project1_Starter_Code.dir\StringList.cpp.s: cmake_force
 
 CMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
 CMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.obj: ..\parameterList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/parameterList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/parameterList.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\parameterList.cpp"
 <<
@@ -589,7 +570,7 @@ CMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.s: cmake_force
 
 CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
 CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj: ..\predicateList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/predicateList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/predicateList.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\predicateList.cpp"
 <<
@@ -608,7 +589,7 @@ CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.s: cmake_force
 
 CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
 CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.obj: ..\Parameter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Parameter.cpp"
 <<
@@ -623,6 +604,158 @@ CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Parameter.cpp.s"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Parameter.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
+CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.obj: ..\predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/predicate.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\predicate.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\predicate.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/predicate.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\predicate.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/predicate.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\predicate.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\predicate.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
+CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.obj: ..\HeadPredicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/HeadPredicate.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\HeadPredicate.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/HeadPredicate.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\HeadPredicate.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/HeadPredicate.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\HeadPredicate.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
+CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj: ..\Fact.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Fact.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Fact.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/Fact.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Fact.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Fact.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\Fact.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Fact.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj: ..\Rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Rule.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Rule.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\Rule.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Rule.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\Query.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
+CMakeFiles\Project1_Starter_Code.dir\Query.cpp.obj: ..\Query.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/Query.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\Query.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Query.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\Query.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/Query.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\Query.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Query.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\Query.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/Query.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\Query.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\Query.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
+CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.obj: ..\FactList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/FactList.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\FactList.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\FactList.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/FactList.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\FactList.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/FactList.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\FactList.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\FactList.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: ..\RuleList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/RuleList.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\RuleList.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/RuleList.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\RuleList.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/RuleList.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\RuleList.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: CMakeFiles\Project1_Starter_Code.dir\flags.make
+CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\QueryList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/Project1_Starter_Code.dir/QueryList.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj /FdCMakeFiles\Project1_Starter_Code.dir\ /FS -c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\QueryList.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project1_Starter_Code.dir/QueryList.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\QueryList.cpp"
+<<
+
+CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project1_Starter_Code.dir/QueryList.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.s /c "C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\QueryList.cpp"
 <<
 
 # Object files for target Project1_Starter_Code
@@ -648,7 +781,6 @@ Project1_Starter_Code_OBJECTS = \
 "CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.obj" \
 "CMakeFiles\Project1_Starter_Code.dir\CommentAutomaton.cpp.obj" \
 "CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj" \
-"CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.obj" \
 "CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj" \
 "CMakeFiles\Project1_Starter_Code.dir\Scheme.cpp.obj" \
 "CMakeFiles\Project1_Starter_Code.dir\IDList.cpp.obj" \
@@ -656,7 +788,15 @@ Project1_Starter_Code_OBJECTS = \
 "CMakeFiles\Project1_Starter_Code.dir\StringList.cpp.obj" \
 "CMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.obj" \
 "CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj" \
-"CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.obj"
+"CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.obj" \
+"CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.obj" \
+"CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.obj" \
+"CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj" \
+"CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj" \
+"CMakeFiles\Project1_Starter_Code.dir\Query.cpp.obj" \
+"CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.obj" \
+"CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj" \
+"CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj"
 
 # External object files for target Project1_Starter_Code
 Project1_Starter_Code_EXTERNAL_OBJECTS =
@@ -682,7 +822,6 @@ Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\StringAutomaton.
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\CommentAutomaton.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj
-Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\Scheme.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\IDList.cpp.obj
@@ -691,9 +830,17 @@ Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\StringList.cpp.o
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\Query.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj
+Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\build.make
 Project1_Starter_Code.exe: CMakeFiles\Project1_Starter_Code.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable Project1_Starter_Code.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable Project1_Starter_Code.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Project1_Starter_Code.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Project1_Starter_Code.dir\objects1.rsp @<<
  /out:Project1_Starter_Code.exe /implib:Project1_Starter_Code.lib /pdb:"C:\Users\seasp\Documents\Git Repos\GitDir\Project-1\Project1_Starter_Code\cmake-build-debug\Project1_Starter_Code.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

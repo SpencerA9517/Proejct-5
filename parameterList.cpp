@@ -14,21 +14,23 @@ ParameterList::ParameterList(bool head, std::vector<Token*> tokens, int* i) {
 
     }else if(tokens[*i]->type != TokenType::RIGHT_PAREN){
         if (tokens[*i]->type == TokenType::COMMA){
-            i++;
+            *i = *i + 1;
             text = Parameter(tokens,i);
             child = new ParameterList(head=false,tokens,i);
-            }
+        }
         else{
-                throw ("expected COMMA");
+            throw ("expected COMMA");
         }
     }
 }
-std::string ParameterList::ToString(bool head) {
+void ParameterList::ToString(bool head) {
     if(child != nullptr) {
         if (head == true) {
-            return (text.text + child->ToString(false));
+            std::cout << text.text;
+            child->ToString(false);
         } else {
-            return ("," + text.text + child->ToString(false));
+            std:: cout << "," + text.text;
+            child->ToString(false);
         }
     }
 }

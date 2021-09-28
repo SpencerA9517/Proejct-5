@@ -10,22 +10,24 @@ Scheme::Scheme() {
 Scheme::Scheme(std::vector<Token*> tokens, int *i) {
     if (tokens[*i]->type == TokenType::ID){
         name = tokens[*i]->toString();
-        i++;
+        *i = *i + 1;
     } else{
         throw("expected name");
     }
     PushToken(TokenType::LEFT_PAREN,tokens,i);
-    parameters = IDList(head=true,tokens,i);
+    IDs = IDList(true,tokens,i);
     PushToken(TokenType::RIGHT_PAREN,tokens,i);
 }
 
 void Scheme::PushToken(TokenType type, std::vector<Token*> tokens, int *i) {
     if (tokens[*i]->type == type){
-        i++;
+        *i = *i + 1;
     }else{
         throw ("expected token");
     }
 }
-std::string Scheme::ToString() {
-    return (name + "(" + parameters.ToString(true) + ")");
+void Scheme::ToString() {
+    std::cout << name + "(";
+    IDs.ToString(true);
+    std::cout << ")\n";
 }

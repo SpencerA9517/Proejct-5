@@ -3,21 +3,20 @@
 //
 
 #include "Parser.h"
+#include <iostream>
 
 Parser::Parser(){
-    CreateParts();
 }
 
-void Parser::CreateParts() {
 
-}
-
-void Parser::Run(std::vector <Token>) {
+void Parser::Run(std::vector <Token*> tokens) {
     try{
-
+        tokensRead = 0;
+        program = DataLog(tokens,&tokensRead);
+        program.ToString();
     }
     catch(std::string e){
-
+        std::cout << e;
     }
     std::string output;
 

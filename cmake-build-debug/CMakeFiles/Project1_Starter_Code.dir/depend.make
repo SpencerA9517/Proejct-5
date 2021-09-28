@@ -28,13 +28,43 @@ CMakeFiles\Project1_Starter_Code.dir\CommentAutomaton.cpp.obj: ..\Token.h
 
 CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\DataLog.cpp
 CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\DataLog.h
-CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\Parsepart.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\Fact.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\FactList.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\HeadPredicate.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\IDList.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\Parameter.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\Query.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\QueryList.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\Rule.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\RuleList.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\Scheme.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\SchemeList.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\StringList.h
 CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\Token.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\parameterList.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\predicate.h
+CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\predicateList.h
+
+CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj: ..\Fact.cpp
+CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj: ..\Fact.h
+CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj: ..\StringList.h
+CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj: ..\Token.h
+
+CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.obj: ..\Fact.h
+CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.obj: ..\FactList.cpp
+CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.obj: ..\FactList.h
+CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.obj: ..\StringList.h
+CMakeFiles\Project1_Starter_Code.dir\FactList.cpp.obj: ..\Token.h
 
 CMakeFiles\Project1_Starter_Code.dir\FactsAutomaton.cpp.obj: ..\Automaton.h
 CMakeFiles\Project1_Starter_Code.dir\FactsAutomaton.cpp.obj: ..\FactsAutomaton.cpp
 CMakeFiles\Project1_Starter_Code.dir\FactsAutomaton.cpp.obj: ..\FactsAutomaton.h
 CMakeFiles\Project1_Starter_Code.dir\FactsAutomaton.cpp.obj: ..\Token.h
+
+CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.obj: ..\HeadPredicate.cpp
+CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.obj: ..\HeadPredicate.h
+CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.obj: ..\IDList.h
+CMakeFiles\Project1_Starter_Code.dir\HeadPredicate.cpp.obj: ..\Token.h
 
 CMakeFiles\Project1_Starter_Code.dir\IDAutomaton.cpp.obj: ..\Automaton.h
 CMakeFiles\Project1_Starter_Code.dir\IDAutomaton.cpp.obj: ..\IDAutomaton.cpp
@@ -81,14 +111,25 @@ CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.obj: ..\Parameter.cpp
 CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.obj: ..\Parameter.h
 CMakeFiles\Project1_Starter_Code.dir\Parameter.cpp.obj: ..\Token.h
 
-CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.obj: ..\Parsepart.cpp
-CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.obj: ..\Parsepart.h
-CMakeFiles\Project1_Starter_Code.dir\Parsepart.cpp.obj: ..\Token.h
-
-CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\Parsepart.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\DataLog.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\Fact.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\FactList.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\HeadPredicate.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\IDList.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\Parameter.h
 CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\Parser.cpp
 CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\Parser.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\Query.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\QueryList.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\Rule.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\RuleList.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\Scheme.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\SchemeList.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\StringList.h
 CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\Token.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\parameterList.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\predicate.h
+CMakeFiles\Project1_Starter_Code.dir\Parser.cpp.obj: ..\predicateList.h
 
 CMakeFiles\Project1_Starter_Code.dir\PeriodAutomaton.cpp.obj: ..\Automaton.h
 CMakeFiles\Project1_Starter_Code.dir\PeriodAutomaton.cpp.obj: ..\PeriodAutomaton.cpp
@@ -105,10 +146,48 @@ CMakeFiles\Project1_Starter_Code.dir\QueriesAutomaton.cpp.obj: ..\QueriesAutomat
 CMakeFiles\Project1_Starter_Code.dir\QueriesAutomaton.cpp.obj: ..\QueriesAutomaton.h
 CMakeFiles\Project1_Starter_Code.dir\QueriesAutomaton.cpp.obj: ..\Token.h
 
+CMakeFiles\Project1_Starter_Code.dir\Query.cpp.obj: ..\Parameter.h
+CMakeFiles\Project1_Starter_Code.dir\Query.cpp.obj: ..\Query.cpp
+CMakeFiles\Project1_Starter_Code.dir\Query.cpp.obj: ..\Query.h
+CMakeFiles\Project1_Starter_Code.dir\Query.cpp.obj: ..\Token.h
+CMakeFiles\Project1_Starter_Code.dir\Query.cpp.obj: ..\parameterList.h
+CMakeFiles\Project1_Starter_Code.dir\Query.cpp.obj: ..\predicate.h
+
+CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\Parameter.h
+CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\Query.h
+CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\QueryList.cpp
+CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\QueryList.h
+CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\Token.h
+CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\parameterList.h
+CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\predicate.h
+
 CMakeFiles\Project1_Starter_Code.dir\RightParenAutomaton.cpp.obj: ..\Automaton.h
 CMakeFiles\Project1_Starter_Code.dir\RightParenAutomaton.cpp.obj: ..\RightParenAutomaton.cpp
 CMakeFiles\Project1_Starter_Code.dir\RightParenAutomaton.cpp.obj: ..\RightParenAutomaton.h
 CMakeFiles\Project1_Starter_Code.dir\RightParenAutomaton.cpp.obj: ..\Token.h
+
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj: ..\HeadPredicate.h
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj: ..\IDList.h
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj: ..\Parameter.h
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj: ..\Rule.cpp
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj: ..\Rule.h
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj: ..\StringList.h
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj: ..\Token.h
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj: ..\parameterList.h
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj: ..\predicate.h
+CMakeFiles\Project1_Starter_Code.dir\Rule.cpp.obj: ..\predicateList.h
+
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: ..\HeadPredicate.h
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: ..\IDList.h
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: ..\Parameter.h
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: ..\Rule.h
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: ..\RuleList.cpp
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: ..\RuleList.h
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: ..\StringList.h
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: ..\Token.h
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: ..\parameterList.h
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: ..\predicate.h
+CMakeFiles\Project1_Starter_Code.dir\RuleList.cpp.obj: ..\predicateList.h
 
 CMakeFiles\Project1_Starter_Code.dir\RulesAutomaton.cpp.obj: ..\Automaton.h
 CMakeFiles\Project1_Starter_Code.dir\RulesAutomaton.cpp.obj: ..\RulesAutomaton.cpp
@@ -149,15 +228,42 @@ CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.obj: ..\WhiteSpaceA
 CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.obj: ..\WhiteSpaceAutomaton.h
 
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Automaton.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\DataLog.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Fact.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\FactList.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\HeadPredicate.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\IDList.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Lexer.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Parameter.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Parser.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Query.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\QueryList.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Rule.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\RuleList.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Scheme.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\SchemeList.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\StringList.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Token.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\main.cpp
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\parameterList.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\predicate.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\predicateList.h
 
 CMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.obj: ..\Parameter.h
 CMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.obj: ..\Token.h
 CMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.obj: ..\parameterList.cpp
 CMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.obj: ..\parameterList.h
 
+CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.obj: ..\Parameter.h
+CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.obj: ..\Token.h
+CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.obj: ..\parameterList.h
+CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.obj: ..\predicate.cpp
+CMakeFiles\Project1_Starter_Code.dir\predicate.cpp.obj: ..\predicate.h
+
+CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj: ..\Parameter.h
+CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj: ..\Token.h
+CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj: ..\parameterList.h
+CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj: ..\predicate.h
 CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj: ..\predicateList.cpp
 CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj: ..\predicateList.h
 

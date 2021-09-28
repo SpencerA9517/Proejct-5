@@ -5,10 +5,11 @@
 #ifndef PROJECT1_STARTER_CODE_IDLIST_H
 #define PROJECT1_STARTER_CODE_IDLIST_H
 
-#endif //PROJECT1_STARTER_CODE_IDLIST_H
+
 #include <string>
 #include <vector>
 #include "Token.h"
+#include <iostream>
 
 class IDList {
 public:
@@ -17,5 +18,6 @@ public:
     IDList* child;
     IDList();
     IDList(bool head, std::vector<Token*> tokens, int* i);
-    std::string ToString(bool head);
+    void ToString(bool head);
 };
+#endif //PROJECT1_STARTER_CODE_IDLIST_H

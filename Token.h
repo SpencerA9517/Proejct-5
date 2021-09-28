@@ -19,6 +19,7 @@ enum class TokenType {
     QUERIES,
     STRING,
     COMMENT,
+    END,
     // TODO: add the other types of tokens
     UNDEFINED
 };
@@ -26,7 +27,7 @@ enum class TokenType {
 class Token
 {
 private:
-    const std::string strConverter[17] = {
+    /*const std::string strConverter[18] = {
             "(COLON,\"",
             "(COLON_DASH,\"",
             "(ID,\"",
@@ -43,11 +44,12 @@ private:
             "(QUERIES,\"",
             "(STRING,\"",
             "(COMMENT,\"",
-            "(UNDEFINED,\""};
+            "(UNDEFINED,\""};*/
     // TODO: add member variables for information needed by Token
 
 public:
-    Token(TokenType type, std::string description, int line);
+    std::string text;
+    Token(TokenType type, std::string description, int line,std::string text);
     TokenType type;
     std::string description;
     int line;

@@ -5,19 +5,17 @@
 #define PROJECT1_STARTER_CODE_PARSER_H
 
 #include <vector>
-#include "Parsepart.h"
+#include "DataLog.h"
 
 class Parser{
 private:
-    std::vector<parsePart*> parts;
-    ind tokensRead;
-
-    void CreateParts ();
+    int tokensRead;
+    DataLog program;
 public:
     Parser();
     ~Parser();
 
-    void Run(std::vector<Token>);
+    void Run(std::vector<Token*> tokens);
 };
 
 
