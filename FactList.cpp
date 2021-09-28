@@ -4,14 +4,11 @@
 
 #include "FactList.h"
 FactList::FactList() {}
-FactList::FactList(bool head, std::vector<Token*> tokens, int* i) {
+FactList::FactList(std::vector<Token*> tokens, int* i) {
     child = nullptr;
-    if(head == true){
+    if(tokens[*i]->type != TokenType::RULES){
         fact = Fact(tokens,i);
-        child = new FactList(head=false,tokens,i);
-    }else if(tokens[*i]->type != TokenType::RULES){
-        fact = Fact(tokens,i);
-        child = new FactList(head=false,tokens,i);
+        child = new FactList(tokens,i);
     }
 }
 void FactList::ToString() {

@@ -14,7 +14,7 @@ StringList::StringList(bool head, std::vector<Token*> tokens, int* i) {
             *i = *i + 1;
             child = new StringList(head=false,tokens,i);
         }else{
-            std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")\n";
+            std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + ",\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")\n";
             throw (e);
         }
     }else if(tokens[*i]->type != TokenType::RIGHT_PAREN){
@@ -25,11 +25,11 @@ StringList::StringList(bool head, std::vector<Token*> tokens, int* i) {
                 *i = *i + 1;
                 child = new StringList(head=false,tokens,i);
             } else{
-                std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")\n";
+                std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + ",\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")\n";
                 throw (e);
             }
         }else {
-            std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")\n";
+            std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + ",\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")\n";
             throw (e);
         }
     }

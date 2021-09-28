@@ -19,7 +19,7 @@ PredicateList::PredicateList(bool head, std::vector<Token*> tokens, int* i) {
             child = new PredicateList(head=false,tokens,i);
         }
         else{
-            std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")\n";
+            std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + ",\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")\n";
             throw (e);
         }
     }

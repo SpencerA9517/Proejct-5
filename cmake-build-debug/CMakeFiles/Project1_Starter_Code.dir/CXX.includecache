@@ -6,24 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/HeadPredicate.h
-string
--
-IDList.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDList.h
-iostream
--
-
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDList.h
-string
--
-vector
--
-Token.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
-iostream
--
-
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parameter.h
 string
 -
@@ -31,36 +13,6 @@ vector
 -
 Token.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
-
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Rule.h
-string
--
-HeadPredicate.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/HeadPredicate.h
-predicateList.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicateList.h
-StringList.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringList.h
-iostream
--
-
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RuleList.cpp
-RuleList.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RuleList.h
-
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RuleList.h
-Rule.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Rule.h
-
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringList.h
-string
--
-vector
--
-Token.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
-iostream
--
 
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 string
@@ -78,23 +30,15 @@ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parame
 iostream
 -
 
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.cpp
+predicate.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.h
+
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.h
 string
 -
 parameterList.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/parameterList.h
-iostream
--
-
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicateList.h
-string
--
-vector
--
-Token.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
-predicate.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.h
 iostream
 -
 

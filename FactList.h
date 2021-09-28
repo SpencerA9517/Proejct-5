@@ -12,7 +12,7 @@ public:
     Fact fact;
     FactList* child;
     FactList();
-    FactList(bool head, std::vector<Token*> tokens, int* i);
+    FactList( std::vector<Token*> tokens, int* i);
     void ToString();
 };
 

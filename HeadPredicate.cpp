@@ -12,7 +12,7 @@ HeadPredicate::HeadPredicate(std::vector<Token*> tokens, int *i) {
         name = tokens[*i]->toString();
         *i = *i + 1;
     } else{
-        std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+        std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + ",\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
         throw (e);
     }
     PushToken(TokenType::LEFT_PAREN,tokens,i);
@@ -24,7 +24,7 @@ void HeadPredicate::PushToken(TokenType type, std::vector<Token*> tokens, int *i
     if (tokens[*i]->type == type){
         *i = *i + 1;
     }else{
-        std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+        std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + ",\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
         throw (e);
     }
 }
