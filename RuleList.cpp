@@ -4,14 +4,11 @@
 
 #include "RuleList.h"
 RuleList::RuleList() {}
-RuleList::RuleList(bool head, std::vector<Token*> tokens, int* i) {
+RuleList::RuleList( std::vector<Token*> tokens, int* i) {
     child = nullptr;
-    if(head == true){
+    if(tokens[*i]->type != TokenType::QUERIES){
         rule = Rule(tokens,i);
-        child = new RuleList(head=false,tokens,i);
-    }else if(tokens[*i]->type != TokenType::QUERIES){
-        rule = Rule(tokens,i);
-        child = new RuleList(head=false,tokens,i);
+        child = new RuleList(tokens,i);
     }
 }
 void RuleList::ToString() {

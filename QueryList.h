@@ -12,7 +12,7 @@ public:
     Query query;
     QueryList* child;
     QueryList();
-    QueryList(bool head, std::vector<Token*> tokens, int* i);
+    QueryList( std::vector<Token*> tokens, int* i);
     void ToString();
 };
 

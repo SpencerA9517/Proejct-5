@@ -14,17 +14,17 @@ DataLog::DataLog(std::vector<Token*> tokens, int* i) {
     facts = FactList(true,tokens,i);
     PushToken(TokenType::RULES,tokens,i);
     PushToken(TokenType::COLON,tokens,i);
-    rules = RuleList(true,tokens,i);
+    rules = RuleList(tokens,i);
     PushToken(TokenType::QUERIES,tokens,i);
     PushToken(TokenType::COLON,tokens,i);
-    queries = QueryList(true,tokens,i);
+    queries = QueryList(tokens,i);
     PushToken(TokenType::END,tokens,i);
 };
 void DataLog::PushToken(TokenType type, std::vector<Token*> tokens, int* i) {
     if (tokens[*i]->type == type){
         *i = *i + 1;
     }else{
-        std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")";
+        std::string e = "Failure!\n  (" + tokens[*i]->toTokString() + "\"" + tokens[*i]->toString() + "\"," + std::to_string(tokens[*i]->line) + ")\n";
         throw (e);
     }
 }

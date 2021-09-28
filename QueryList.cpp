@@ -4,14 +4,11 @@
 
 #include "QueryList.h"
 QueryList::QueryList() {}
-QueryList::QueryList(bool head, std::vector<Token*> tokens, int* i) {
+QueryList::QueryList( std::vector<Token*> tokens, int* i) {
     child = nullptr;
-    if(head == true){
+    if(tokens[*i]->type != TokenType::END){
         query = Query(tokens,i);
-        child = new QueryList(head=false,tokens,i);
-    }else if(tokens[*i]->type != TokenType::END){
-        query = Query(tokens,i);
-        child = new QueryList(head=false,tokens,i);
+        child = new QueryList(tokens,i);
     }
 }
 void QueryList::ToString() {

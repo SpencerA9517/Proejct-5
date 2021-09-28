@@ -12,7 +12,7 @@ public:
     Rule rule;
     RuleList* child;
     RuleList();
-    RuleList(bool head, std::vector<Token*> tokens, int* i);
+    RuleList(std::vector<Token*> tokens, int* i);
     void ToString();
 };
 
