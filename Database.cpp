@@ -13,7 +13,7 @@ Database::Database(SchemeList* SL, FactList* FL) {
         FL = head;
         int Si;
         while ("" != FL->fact.name){
-            for(int i = 0; i < relations.size();i++){
+            for(int i = 0; i < static_cast<int>(relations.size());i++){
                 if (relations[i].name == FL->fact.name){ //find matching relation for fact
                     Si = i;
                 }
