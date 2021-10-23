@@ -30,7 +30,7 @@ void Relation::addTuple(tuple newTuple) {
 Relation Relation::select( std::vector<std::string> conditions) {
     Relation srt = *this;
     Relation rtn = Relation(name,heads);
-    for (int col = 0; col < conditions.size();col++) {
+    for (int col = 0; col < static_cast<int>(conditions.size());col++) {
         int coCol;
         //bool hasHead = false;
 
