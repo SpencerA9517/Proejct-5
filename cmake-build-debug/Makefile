@@ -262,6 +262,30 @@ DataLog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.s
 .PHONY : DataLog.cpp.s
 
+Database.obj: Database.cpp.obj
+.PHONY : Database.obj
+
+# target to build an object file
+Database.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj
+.PHONY : Database.cpp.obj
+
+Database.i: Database.cpp.i
+.PHONY : Database.i
+
+# target to preprocess a source file
+Database.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Database.cpp.i
+.PHONY : Database.cpp.i
+
+Database.s: Database.cpp.s
+.PHONY : Database.s
+
+# target to generate assembly for a file
+Database.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Database.cpp.s
+.PHONY : Database.cpp.s
+
 Fact.obj: Fact.cpp.obj
 .PHONY : Fact.obj
 
@@ -646,6 +670,30 @@ QueryList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.s
 .PHONY : QueryList.cpp.s
 
+Relation.obj: Relation.cpp.obj
+.PHONY : Relation.obj
+
+# target to build an object file
+Relation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj
+.PHONY : Relation.cpp.obj
+
+Relation.i: Relation.cpp.i
+.PHONY : Relation.i
+
+# target to preprocess a source file
+Relation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.i
+.PHONY : Relation.cpp.i
+
+Relation.s: Relation.cpp.s
+.PHONY : Relation.s
+
+# target to generate assembly for a file
+Relation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.s
+.PHONY : Relation.cpp.s
+
 RightParenAutomaton.obj: RightParenAutomaton.cpp.obj
 .PHONY : RightParenAutomaton.obj
 
@@ -910,6 +958,30 @@ WhiteSpaceAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.s
 .PHONY : WhiteSpaceAutomaton.cpp.s
 
+header.obj: header.cpp.obj
+.PHONY : header.obj
+
+# target to build an object file
+header.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\header.cpp.obj
+.PHONY : header.cpp.obj
+
+header.i: header.cpp.i
+.PHONY : header.i
+
+# target to preprocess a source file
+header.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\header.cpp.i
+.PHONY : header.cpp.i
+
+header.s: header.cpp.s
+.PHONY : header.s
+
+# target to generate assembly for a file
+header.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\header.cpp.s
+.PHONY : header.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1006,6 +1078,30 @@ predicateList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.s
 .PHONY : predicateList.cpp.s
 
+tuple.obj: tuple.cpp.obj
+.PHONY : tuple.obj
+
+# target to build an object file
+tuple.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\tuple.cpp.obj
+.PHONY : tuple.cpp.obj
+
+tuple.i: tuple.cpp.i
+.PHONY : tuple.i
+
+# target to preprocess a source file
+tuple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\tuple.cpp.i
+.PHONY : tuple.cpp.i
+
+tuple.s: tuple.cpp.s
+.PHONY : tuple.s
+
+# target to generate assembly for a file
+tuple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project1_Starter_Code.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project1_Starter_Code.dir\tuple.cpp.s
+.PHONY : tuple.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1033,6 +1129,9 @@ help:
 	@echo ... DataLog.obj
 	@echo ... DataLog.i
 	@echo ... DataLog.s
+	@echo ... Database.obj
+	@echo ... Database.i
+	@echo ... Database.s
 	@echo ... Fact.obj
 	@echo ... Fact.i
 	@echo ... Fact.s
@@ -1081,6 +1180,9 @@ help:
 	@echo ... QueryList.obj
 	@echo ... QueryList.i
 	@echo ... QueryList.s
+	@echo ... Relation.obj
+	@echo ... Relation.i
+	@echo ... Relation.s
 	@echo ... RightParenAutomaton.obj
 	@echo ... RightParenAutomaton.i
 	@echo ... RightParenAutomaton.s
@@ -1114,6 +1216,9 @@ help:
 	@echo ... WhiteSpaceAutomaton.obj
 	@echo ... WhiteSpaceAutomaton.i
 	@echo ... WhiteSpaceAutomaton.s
+	@echo ... header.obj
+	@echo ... header.i
+	@echo ... header.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -1126,6 +1231,9 @@ help:
 	@echo ... predicateList.obj
 	@echo ... predicateList.i
 	@echo ... predicateList.s
+	@echo ... tuple.obj
+	@echo ... tuple.i
+	@echo ... tuple.s
 .PHONY : help
 
 

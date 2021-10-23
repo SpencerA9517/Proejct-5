@@ -45,6 +45,24 @@ CMakeFiles/Project1_Starter_Code.dir/DataLog.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/parameterList.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicateList.h
+CMakeFiles/Project1_Starter_Code.dir/Database.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Database.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Database.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Fact.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parameter.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Query.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueryList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Scheme.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemeList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/header.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/parameterList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/tuple.h
 CMakeFiles/Project1_Starter_Code.dir/Fact.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Fact.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Fact.h
@@ -161,6 +179,15 @@ CMakeFiles/Project1_Starter_Code.dir/QueryList.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/parameterList.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.h
+CMakeFiles/Project1_Starter_Code.dir/Relation.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Scheme.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemeList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/header.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/tuple.h
 CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RightParenAutomaton.cpp
@@ -227,9 +254,13 @@ CMakeFiles/Project1_Starter_Code.dir/WhiteSpaceAutomaton.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/WhiteSpaceAutomaton.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/WhiteSpaceAutomaton.h
+CMakeFiles/Project1_Starter_Code.dir/header.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/header.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/header.h
 CMakeFiles/Project1_Starter_Code.dir/main.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Automaton.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/DataLog.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Database.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Fact.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactList.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/HeadPredicate.h
@@ -239,16 +270,19 @@ CMakeFiles/Project1_Starter_Code.dir/main.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parser.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Query.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueryList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Rule.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RuleList.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Scheme.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemeList.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringList.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/header.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/main.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/parameterList.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicateList.h
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/tuple.h
 CMakeFiles/Project1_Starter_Code.dir/parameterList.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parameter.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
@@ -267,3 +301,6 @@ CMakeFiles/Project1_Starter_Code.dir/predicateList.cpp.obj
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.h
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicateList.cpp
  C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicateList.h
+CMakeFiles/Project1_Starter_Code.dir/tuple.cpp.obj
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/tuple.cpp
+ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/tuple.h

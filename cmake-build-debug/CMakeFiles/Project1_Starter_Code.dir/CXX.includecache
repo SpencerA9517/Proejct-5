@@ -6,6 +6,44 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Database.cpp
+Database.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Database.h
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Database.h
+Relation.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.h
+Query.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Query.h
+QueryList.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueryList.h
+SchemeList.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemeList.h
+FactList.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactList.h
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Fact.h
+string
+-
+StringList.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringList.h
+iostream
+-
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactList.h
+Fact.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Fact.h
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDList.h
+string
+-
+vector
+-
+Token.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+iostream
+-
+
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parameter.h
 string
 -
@@ -14,7 +52,63 @@ vector
 Token.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Query.h
+string
+-
+predicate.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.h
+iostream
+-
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueryList.h
+Query.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Query.h
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.h
+vector
+-
+set
+-
+iterator
+-
+string
+-
+header.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/header.h
+tuple.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/tuple.h
+SchemeList.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemeList.h
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Scheme.h
+string
+-
+IDList.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/IDList.h
+iostream
+-
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemeList.h
+Scheme.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Scheme.h
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringList.h
+string
+-
+vector
+-
+Token.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+iostream
+-
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
+string
+-
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/header.h
+vector
+-
 string
 -
 
@@ -30,15 +124,17 @@ C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Parame
 iostream
 -
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.cpp
-predicate.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.h
-
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.h
 string
 -
 parameterList.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/parameterList.h
 iostream
+-
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/tuple.h
+vector
+-
+string
 -
 

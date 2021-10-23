@@ -125,6 +125,12 @@
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/DataLog.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Database.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Database.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Fact.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
@@ -221,6 +227,12 @@
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueryList.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RightParenAutomaton.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
@@ -287,6 +299,12 @@
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/WhiteSpaceAutomaton.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/header.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/header.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/main.cpp">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
@@ -306,6 +324,12 @@
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicateList.h">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/tuple.cpp">
+			<Option target="Project1_Starter_Code"/>
+		</Unit>
+		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/tuple.h">
 			<Option target="Project1_Starter_Code"/>
 		</Unit>
 		<Unit filename="C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CMakeLists.txt">

@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include "Parser.h"
+#include "Database.h"
 #include <exception>
 
     int main(int argc, char** argv) {
@@ -21,6 +22,9 @@
 
             lexer->Run(input);
             parser->Run(lexer->Run(input));
+            Database *database = new Database(&parser->program.schemes,&parser->program.facts);
+            database->questing(&parser->program.queries);
+
         }
         else{
             std::cout << "File failed to open";

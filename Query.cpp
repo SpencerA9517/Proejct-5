@@ -26,7 +26,6 @@ void Query::PushToken(TokenType type, std::vector<Token*> tokens, int *i) {
     }
 }
 void Query::ToString() {
-    std:: cout << "  ";
     q.ToString();
-    std::cout << "?\n";
+    std::cout << "? ";
 }

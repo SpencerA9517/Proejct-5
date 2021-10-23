@@ -12,7 +12,7 @@ void Parser::Run(std::vector <Token*> tokens) {
     try{
         tokensRead = 0;
         program = DataLog(tokens,&tokensRead);
-        program.ToString();
+        //program.ToString();
     }
     catch(std::string e){
         std::cout << e;

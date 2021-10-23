@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommaAutomaton.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/CommaAutomaton.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/CommentAutomaton.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/CommentAutomaton.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/DataLog.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/DataLog.cpp.obj"
+  "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Database.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Database.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Fact.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Fact.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactList.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/FactList.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactsAutomaton.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/FactsAutomaton.cpp.obj"
@@ -30,6 +31,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueriesAutomaton.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/QueriesAutomaton.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Query.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Query.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueryList.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/QueryList.cpp.obj"
+  "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Relation.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RightParenAutomaton.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/RightParenAutomaton.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Rule.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Rule.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RuleList.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/RuleList.cpp.obj"
@@ -41,10 +43,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringList.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/StringList.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/Token.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/WhiteSpaceAutomaton.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/WhiteSpaceAutomaton.cpp.obj"
+  "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/header.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/header.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/main.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/main.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/parameterList.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/parameterList.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/predicate.cpp.obj"
   "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicateList.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/predicateList.cpp.obj"
+  "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/tuple.cpp" "C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/cmake-build-debug/CMakeFiles/Project1_Starter_Code.dir/tuple.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

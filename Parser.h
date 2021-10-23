@@ -10,8 +10,8 @@
 class Parser{
 private:
     int tokensRead;
-    DataLog program;
 public:
+    DataLog program;
     Parser();
     ~Parser();
 

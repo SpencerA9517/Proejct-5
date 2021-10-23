@@ -45,6 +45,24 @@ CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\parameterList.h
 CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\predicate.h
 CMakeFiles\Project1_Starter_Code.dir\DataLog.cpp.obj: ..\predicateList.h
 
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Database.cpp
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Database.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Fact.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\FactList.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\IDList.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Parameter.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Query.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\QueryList.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Relation.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Scheme.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\SchemeList.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\StringList.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Token.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\header.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\parameterList.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\predicate.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\tuple.h
+
 CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj: ..\Fact.cpp
 CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj: ..\Fact.h
 CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj: ..\StringList.h
@@ -161,6 +179,15 @@ CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\Token.h
 CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\parameterList.h
 CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\predicate.h
 
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\IDList.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\Relation.cpp
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\Relation.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\Scheme.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\SchemeList.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\Token.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\header.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\tuple.h
+
 CMakeFiles\Project1_Starter_Code.dir\RightParenAutomaton.cpp.obj: ..\Automaton.h
 CMakeFiles\Project1_Starter_Code.dir\RightParenAutomaton.cpp.obj: ..\RightParenAutomaton.cpp
 CMakeFiles\Project1_Starter_Code.dir\RightParenAutomaton.cpp.obj: ..\RightParenAutomaton.h
@@ -227,8 +254,12 @@ CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.obj: ..\Token.h
 CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.obj: ..\WhiteSpaceAutomaton.cpp
 CMakeFiles\Project1_Starter_Code.dir\WhiteSpaceAutomaton.cpp.obj: ..\WhiteSpaceAutomaton.h
 
+CMakeFiles\Project1_Starter_Code.dir\header.cpp.obj: ..\header.cpp
+CMakeFiles\Project1_Starter_Code.dir\header.cpp.obj: ..\header.h
+
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Automaton.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\DataLog.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Database.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Fact.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\FactList.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\HeadPredicate.h
@@ -238,16 +269,19 @@ CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Parameter.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Parser.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Query.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\QueryList.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Relation.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Rule.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\RuleList.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Scheme.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\SchemeList.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\StringList.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\Token.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\header.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\main.cpp
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\parameterList.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\predicate.h
 CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\predicateList.h
+CMakeFiles\Project1_Starter_Code.dir\main.cpp.obj: ..\tuple.h
 
 CMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.obj: ..\Parameter.h
 CMakeFiles\Project1_Starter_Code.dir\parameterList.cpp.obj: ..\Token.h
@@ -266,4 +300,7 @@ CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj: ..\parameterList.h
 CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj: ..\predicate.h
 CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj: ..\predicateList.cpp
 CMakeFiles\Project1_Starter_Code.dir\predicateList.cpp.obj: ..\predicateList.h
+
+CMakeFiles\Project1_Starter_Code.dir\tuple.cpp.obj: ..\tuple.cpp
+CMakeFiles\Project1_Starter_Code.dir\tuple.cpp.obj: ..\tuple.h
 
