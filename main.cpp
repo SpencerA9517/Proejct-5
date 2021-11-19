@@ -22,7 +22,7 @@
 
             lexer->Run(input);
             parser->Run(lexer->Run(input));
-            Database *database = new Database(&parser->program.schemes,&parser->program.facts);
+            Database *database = new Database(&parser->program.schemes,&parser->program.facts,&parser->program.rules);
             try {
                 database->questing(&parser->program.queries);
             }

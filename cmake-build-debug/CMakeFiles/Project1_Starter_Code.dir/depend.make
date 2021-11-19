@@ -49,11 +49,14 @@ CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Database.cpp
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Database.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Fact.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\FactList.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\HeadPredicate.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\IDList.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Parameter.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Query.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\QueryList.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Relation.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Rule.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\RuleList.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Scheme.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\SchemeList.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\StringList.h
@@ -61,6 +64,7 @@ CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\Token.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\header.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\parameterList.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\predicate.h
+CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\predicateList.h
 CMakeFiles\Project1_Starter_Code.dir\Database.cpp.obj: ..\tuple.h
 
 CMakeFiles\Project1_Starter_Code.dir\Fact.cpp.obj: ..\Fact.cpp
@@ -179,13 +183,21 @@ CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\Token.h
 CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\parameterList.h
 CMakeFiles\Project1_Starter_Code.dir\QueryList.cpp.obj: ..\predicate.h
 
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\HeadPredicate.h
 CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\IDList.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\Parameter.h
 CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\Relation.cpp
 CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\Relation.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\Rule.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\RuleList.h
 CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\Scheme.h
 CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\SchemeList.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\StringList.h
 CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\Token.h
 CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\header.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\parameterList.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\predicate.h
+CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\predicateList.h
 CMakeFiles\Project1_Starter_Code.dir\Relation.cpp.obj: ..\tuple.h
 
 CMakeFiles\Project1_Starter_Code.dir\RightParenAutomaton.cpp.obj: ..\Automaton.h

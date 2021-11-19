@@ -12,6 +12,7 @@
 #include "header.h"
 #include "tuple.h"
 #include "SchemeList.h"
+#include "RuleList.h"
 
 class Relation {
 public:
@@ -24,8 +25,9 @@ public:
     Relation(std::string name,header heads);
     void addTuple(tuple newTuple);
     Relation select( std::vector<std::string> conditions);
-    Relation project(header newHead);
-    Relation rename(std::string oldHead,std::string newHead);
+    Relation project(std::vector<int> keep);
+    void rename(std::string oldHead,std::string newHead);
+    Relation naturalJoin(Relation second);
 
 };
 

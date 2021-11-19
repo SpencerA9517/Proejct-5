@@ -74,27 +74,29 @@ Relation Relation::select( std::vector<std::string> conditions) {
     }
     return srt;
 }
-Relation Relation::project(header newHead) {
-    std::vector<int> keep;
-    Relation rtn = Relation(name, newHead);
-    for (int i = 0; i < newHead.size; i++) {
-        for (int j = 0; j < heads.size; j++) {
-            keep.push_back(j);
-        }
+Relation Relation::project(std::vector<int> keep) {
+    Relation rtn = Relation(name, heads);
+    rtn.heads.head.clear();
+    rtn.heads.size = 0;
+    for (int i = 0; i < static_cast<int>(keep.size()); i++) {
+        rtn.heads.head.push_back(this->heads.head[keep[i]]);\
+        rtn.heads.size++;
     }
     tuple temp;
     for (it = table.begin(); it != table.end(); it++) {
-        for (int i = keep.size() - 1; i > -1; i--) {
+        temp.size = 0;
+        for (int i = 0; i < static_cast<int>(keep.size()); i++) {
             temp.equiv.push_back(it->equiv[keep[i]]);
+            temp.size++;
         }
         rtn.table.insert(temp);
+        temp.equiv.clear();
     }
     return rtn;
 }
 
-Relation Relation::rename(std::string oldHead, std::string newHead) {
+void Relation::rename(std::string oldHead, std::string newHead) {
     int spot;
-    Relation rtn = Relation(name,heads);
     for(int i = 0; i<heads.size;i++){
         if (newHead == heads.head[i]){
             throw "cannot duplicate name";
@@ -103,7 +105,49 @@ Relation Relation::rename(std::string oldHead, std::string newHead) {
             spot = i;
         }
     }
-    rtn.heads.head[spot] = newHead;
+    heads.head[spot] = newHead;
+}
+Relation Relation::naturalJoin(Relation second) {
+    header newHeads = this->heads;
+    bool toAdd;
+    std::vector<int> keep;
+    std::vector<int> matchSecond;
+    std::vector<int> matchThis;
+    for (int i = 0; i< second.heads.size; i++){
+        toAdd = true;
+        for (int j = 0; j< this->heads.size; j++){
+            if (this->heads.head[j] == second.heads.head[i]){
+                toAdd = false;
+                matchThis.push_back(j);
+                matchSecond.push_back(i);
+            }
+        }
+        if (toAdd) {
+            newHeads.head.push_back(second.heads.head[i]);
+            newHeads.size++;
+            keep.push_back(i);
+        }
+    }
+    Relation rtn = Relation(name,newHeads);
+    tuple temp;
+    for (it = table.begin(); it != table.end(); it++) {
+        for (second.it = second.table.begin(); second.it != second.table.end(); second.it++) {
+            temp.equiv = it->equiv;
+            temp.size = it->size;
+            toAdd = true;
+            for (int i = 0; i < static_cast<int>(matchThis.size()); i++) {
+                if (it->equiv[matchThis[i]] != second.it->equiv[matchSecond[i]]){
+                    toAdd = false;
+                }
+            }
+            if (toAdd){
+                for (int i = 0; i < static_cast<int> (keep.size());i++){
+                    temp.equiv.push_back(second.it->equiv[keep[i]]);
+                    temp.size++;
+                }
+                rtn.table.insert(temp);
+            }
+        }
+    }
     return rtn;
-
 }

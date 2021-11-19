@@ -28,7 +28,6 @@ void Rule::PushToken(TokenType type, std::vector<Token*> tokens, int *i) {
     }
 }
 void Rule::ToString() {
-    std::cout << "  ";
     headPred.ToString();
     std::cout << " :- ";
     predicates.ToString(true);

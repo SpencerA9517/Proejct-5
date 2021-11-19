@@ -10,11 +10,12 @@
 #include "QueryList.h"
 #include "SchemeList.h"
 #include "FactList.h"
+#include "RuleList.h"
 
 class Database{
 public:
     std::vector<Relation> relations;
-    Database(SchemeList* SL,FactList* FL);
+    Database(SchemeList* SL,FactList* FL, RuleList* RL);
     Relation quest(Query query);
     void questing(QueryList* QL);
 };

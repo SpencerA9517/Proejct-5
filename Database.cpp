@@ -4,34 +4,100 @@
 
 #include "Database.h"
 
-Database::Database(SchemeList* SL, FactList* FL) {
-    FactList* head = FL;
+Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
     while ("" != SL->scheme.name) {
         relations.push_back(Relation(SL->scheme));
         SL = SL->child;
     }
-        FL = head;
-        int Si;
-        while ("" != FL->fact.name){
-            for(int i = 0; i < static_cast<int>(relations.size());i++){
-                if (relations[i].name == FL->fact.name){ //find matching relation for fact
-                    Si = i;
+    int Si;
+    while ("" != FL->fact.name) {
+        for (int i = 0; i < static_cast<int>(relations.size()); i++) {
+            if (relations[i].name == FL->fact.name) { //find matching relation for fact
+                Si = i;
+            }
+        }
+        std::vector<std::string> data;
+        tuple toAdd;
+        StringList *StrL = &FL->fact.strings;
+        while ("" != StrL->text) {
+            data.push_back(StrL->text); //convert fact to vector
+            StrL = StrL->child;
+        }
+        toAdd.equiv = data;
+        toAdd.size = data.size();
+        relations[Si].table.insert(toAdd); //add it to table
+        data.clear();
+        FL = FL->child; //loop
+    }
+    std::cout << "Rule Evaluation\n";
+    bool update = true;
+    int passes = 0;
+    RuleList* start = RL;
+    while (update){
+        update = false;
+        passes++;
+        RL = start;
+        while ("" != RL->rule.headPred.name) {
+            int schemePos = -1;
+            for (int i = 0; i < static_cast<int>(relations.size()); i++) {
+                if (RL->rule.headPred.name == relations[i].name) {
+                    schemePos = i;
                 }
             }
-            std::vector<std::string> data;
-            tuple toAdd;
-            StringList* StrL = &FL->fact.strings;
-            while ("" != StrL->text) {
-                data.push_back(StrL->text); //convert fact to vector
-                StrL = StrL->child;
+            if (schemePos != -1) {
+                RL->rule.ToString();
+                std::vector<Relation> tmp;
+                PredicateList *PL = &RL->rule.predicates;
+                ParameterList *PmL;
+                while ("" != PL->text.name) {
+                    for (int i = 0; i < static_cast<int> (relations.size()); i++) {
+                        if (PL->text.name == relations[i].name) {
+                            tmp.push_back(relations[i]);
+                            PmL = &PL->text.parameters;
+                            for (int j = 0; j < tmp.back().heads.size; j++) {
+                                if (PmL->text.text != tmp.back().heads.head[j]) {
+                                    tmp.back().rename(tmp.back().heads.head[j], PmL->text.text);
+                                }
+                                PmL = PmL->child;
+                            }
+                        }
+                    }
+                    PL = PL->child;
+                }
+                for (int i = 1; i < static_cast<int> (tmp.size()); i++) {
+                    tmp[0] = tmp[0].naturalJoin(tmp[i]);
+                }
+                IDList *ids = &RL->rule.headPred.IDs;
+                std::vector<int> toProj;
+                int i = 0;
+                while ("" != ids->text) {
+                    for (int j = 0; j < tmp[0].heads.size; j++) {
+                        if (ids->text == tmp[0].heads.head[j]) {
+                            toProj.push_back(j);
+                        }
+                    }
+                    ids = ids->child;
+                }
+                tmp[0] = tmp[0].project(toProj);
+                tmp[0].name = RL->rule.headPred.name;
+                bool added;
+                for (std::set<tuple>::iterator it = tmp[0].table.begin(); it != tmp[0].table.end();it++){
+                    added = false;
+                    added = relations[schemePos].table.insert(*it).second;
+                    if (added){
+                        for (int i = 0; i < it->size; i++) {
+                            std::cout << "  " << relations[schemePos].heads.head[i] << "=" << it->equiv[i];
+                            std::cout << (i == relations[schemePos].heads.size - 1 ? "\n" : ",");
+                        }
+                    }
+                    update = added || update;
+                }
             }
-            toAdd.equiv = data;
-            toAdd.size = data.size();
-            relations[Si].table.insert(toAdd); //add it to table
-            data.clear();
-            FL = FL->child; //loop
+            RL = RL->child;
         }
     }
+    std::cout << "\nSchemes populated after " << passes << " passes through the Rules.\n\n";
+}
 
 Relation Database::quest(Query query) {
     Relation rtn;
