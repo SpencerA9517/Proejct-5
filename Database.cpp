@@ -67,9 +67,23 @@ Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
                 for (int i = 1; i < static_cast<int> (tmp.size()); i++) {
                     tmp[0] = tmp[0].naturalJoin(tmp[i]);
                 }
+                bool remove = true;
+                for (int i = 0; i < tmp[0].heads.size; i++) {
+                    remove = true;
+                    while (remove) {
+                        remove = false;
+                        for (tmp[0].it = tmp[0].table.begin(); tmp[0].it != tmp[0].table.end(); tmp[0].it++) {
+                            if (tmp[0].heads.head[i] != tmp[0].it->equiv[i] && tmp[0].heads.head[i][0] == '\'') {
+                                tmp[0].table.erase(tmp[0].it);
+                                remove = true;
+                                break;
+                            }
+                        }
+
+                    }
+                }
                 IDList *ids = &RL->rule.headPred.IDs;
                 std::vector<int> toProj;
-                int i = 0;
                 while ("" != ids->text) {
                     for (int j = 0; j < tmp[0].heads.size; j++) {
                         if (ids->text == tmp[0].heads.head[j]) {

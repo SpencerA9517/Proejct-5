@@ -24,6 +24,7 @@
             parser->Run(lexer->Run(input));
             Database *database = new Database(&parser->program.schemes,&parser->program.facts,&parser->program.rules);
             try {
+                std::cout << "Query Evaluation\n";
                 database->questing(&parser->program.queries);
             }
             catch(std::string e){

@@ -116,7 +116,7 @@ Relation Relation::naturalJoin(Relation second) {
     for (int i = 0; i< second.heads.size; i++){
         toAdd = true;
         for (int j = 0; j< this->heads.size; j++){
-            if (this->heads.head[j] == second.heads.head[i]){
+            if (this->heads.head[j] == second.heads.head[i] && this->heads.head[j][0] != '\''){
                 toAdd = false;
                 matchThis.push_back(j);
                 matchSecond.push_back(i);
