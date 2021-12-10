@@ -107,7 +107,7 @@ Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
             break;
         }
     }
-    std::cout << "Dependecny Graph\n";
+    std::cout << "Dependency Graph\n";
     for (unsigned  int i = 0; i < Graph.size(); i++){
         std::cout << "R" << i << ":";
         for (std::set<int>::iterator it = Graph[i].begin(); it != Graph[i].end(); it++) {
@@ -214,8 +214,9 @@ Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
         }
         std::cout << passes << " passes: ";
         for (unsigned  int j = 0; j < DirectedRules[i].size(); j++){
-            std::cout << "R" << DirectedRules[i][j] << (j == DirectedRules[i].size() -1 ? "\n" : ",");
+            std::cout << "R" << DirectedRules[i][j] << (j == DirectedRules[i].size() -1 ? "" : ",");
         }
+        std::cout << "\n"
         update = true;
         passes = 0;
     }
