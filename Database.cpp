@@ -111,7 +111,7 @@ Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
     for (unsigned  int i = 0; i < Graph.size(); i++){
         std::cout << "R" << i << ":";
         for (std::set<int>::iterator it = Graph[i].begin(); it != Graph[i].end(); it++) {
-            std::cout << "R" << *it << (std::next(it) == Graph[i].end() ? "\" : ",");
+            std::cout << "R" << *it << (std::next(it) == Graph[i].end() ? "" : ",");
         }
     }
     std::cout << "\n";
