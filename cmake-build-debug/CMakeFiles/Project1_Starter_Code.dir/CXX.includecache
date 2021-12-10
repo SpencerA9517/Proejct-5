@@ -6,6 +6,38 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Database.cpp
+Database.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Database.h
+algorithm
+-
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Database.h
+Relation.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.h
+Query.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Query.h
+QueryList.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueryList.h
+SchemeList.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/SchemeList.h
+FactList.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactList.h
+RuleList.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/RuleList.h
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Fact.h
+string
+-
+StringList.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/StringList.h
+iostream
+-
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/FactList.h
+Fact.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Fact.h
+
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/HeadPredicate.h
 string
 -
@@ -32,9 +64,17 @@ vector
 Token.h
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Token.h
 
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.cpp
-Relation.h
-C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Query.h
+string
+-
+predicate.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/predicate.h
+iostream
+-
+
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/QueryList.h
+Query.h
+C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Query.h
 
 C:/Users/seasp/Documents/Git Repos/GitDir/Project-1/Project1_Starter_Code/Relation.h
 vector

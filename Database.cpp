@@ -118,7 +118,7 @@ Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
         std::cout << "\n";
     }
 
-    std::cout << "\n\nRule Evaluation\n";
+    std::cout << "\nRule Evaluation\n";
     for (unsigned int i = 0; i < DirectedRules.size(); i++) {
         std::cout << "SCC: ";
         for (unsigned  int j = 0; j < DirectedRules[i].size(); j++){
