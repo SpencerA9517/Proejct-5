@@ -26,7 +26,7 @@ public:
     void addTuple(tuple newTuple);
     Relation select( std::vector<std::string> conditions);
     Relation project(std::vector<int> keep);
-    void rename(std::string oldHead,std::string newHead);
+    void rename(int oldHead,std::string newHead);
     Relation naturalJoin(Relation second);
 
 };

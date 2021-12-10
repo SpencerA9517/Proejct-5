@@ -18,6 +18,8 @@ public:
     Database(SchemeList* SL,FactList* FL, RuleList* RL);
     Relation quest(Query query);
     void questing(QueryList* QL);
+    void graphing(int start, std::vector<bool> * added,std::vector<int> * prefix, std::vector<int>* postfix, std::vector<std::set<int>> graph, int* count);
+    std::vector<int> graphing(int start,std::vector<bool> * added, std::vector<std::set<int>> graph);
 };
 
 #endif //PROJECT1_STARTER_CODE_DATABASE_H

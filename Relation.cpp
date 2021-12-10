@@ -95,17 +95,13 @@ Relation Relation::project(std::vector<int> keep) {
     return rtn;
 }
 
-void Relation::rename(std::string oldHead, std::string newHead) {
-    int spot;
-    for(int i = 0; i<heads.size;i++){
-        if (newHead == heads.head[i]){
+void Relation::rename(int oldHead, std::string newHead) {
+    for(int i = 0; i<oldHead;i++) {
+        if (newHead == heads.head[i]) {
             throw "cannot duplicate name";
         }
-        if (oldHead == heads.head[i]){
-            spot = i;
-        }
     }
-    heads.head[spot] = newHead;
+            heads.head[oldHead] = newHead;
 }
 Relation Relation::naturalJoin(Relation second) {
     header newHeads = this->heads;
