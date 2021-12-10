@@ -111,9 +111,10 @@ Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
     for (unsigned  int i = 0; i < Graph.size(); i++){
         std::cout << "R" << i << ":";
         for (std::set<int>::iterator it = Graph[i].begin(); it != Graph[i].end(); it++) {
-            std::cout << "R" << *it << (std::next(it) == Graph[i].end() ? "\n" : ",");
+            std::cout << "R" << *it << (std::next(it) == Graph[i].end() ? "\" : ",");
         }
     }
+    std::cout << "\n";
     std::cout << "\n\nRule Evaluation\n";
     for (unsigned int i = 0; i < DirectedRules.size(); i++) {
         std::cout << "SCC: ";
@@ -214,9 +215,8 @@ Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
         }
         std::cout << passes << " passes: ";
         for (unsigned  int j = 0; j < DirectedRules[i].size(); j++){
-            std::cout << "R" << DirectedRules[i][j] << (j == DirectedRules[i].size() -1 ? "" : ",");
+            std::cout << "R" << DirectedRules[i][j] << (j == DirectedRules[i].size() -1 ? "\n" : ",");
         }
-        std::cout << "\n"
         update = true;
         passes = 0;
     }
