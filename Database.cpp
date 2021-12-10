@@ -3,6 +3,7 @@
 //
 
 #include "Database.h"
+#include <algorithm>
 
 Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
     while ("" != SL->scheme.name) {
@@ -98,6 +99,7 @@ Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
         if (postfix[maxRule] > -1) {
             added[maxRule] = true;
             SCC = graphing(maxRule, &added, Graph);
+            std::sort(SCC.begin(), SCC.end());
             DirectedRules.push_back(SCC);
             for (unsigned int i = 0; i < SCC.size(); i++) {
                 postfix[SCC[i]] = -1;
