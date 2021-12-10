@@ -113,8 +113,9 @@ Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
         for (std::set<int>::iterator it = Graph[i].begin(); it != Graph[i].end(); it++) {
             std::cout << "R" << *it << (std::next(it) == Graph[i].end() ? "" : ",");
         }
+        std::cout << "\n";
     }
-    std::cout << "\n";
+
     std::cout << "\n\nRule Evaluation\n";
     for (unsigned int i = 0; i < DirectedRules.size(); i++) {
         std::cout << "SCC: ";
