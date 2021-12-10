@@ -31,7 +31,6 @@ Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
     }
     bool update = true;
     int passes = 0;
-    RuleList* start = RL;
     std::vector<Rule> Rules;
     std::vector <std::vector <int>> DirectedRules;
     std::vector <std::vector <int>> DirectedIndex;
@@ -55,7 +54,7 @@ Database::Database(SchemeList* SL, FactList* FL, RuleList* RL) {
         }
         Graph.push_back(tempSet);
     }
-    for (unsigned int i = 0; i < Rules.size(); i++) {
+    for (int i = 0; i < static_cast<int>(Rules.size()); i++) {
         tempSet.clear();
         for (unsigned int j = 0; j < Rules.size();j++){
             for (std::set<int>::iterator it = Graph[j].begin(); it != Graph[j].end(); it++) {
